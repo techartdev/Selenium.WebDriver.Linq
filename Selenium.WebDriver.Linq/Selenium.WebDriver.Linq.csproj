@@ -3,7 +3,23 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Selenium.WebDriver.Linq</Title>
+    <Authors>techartdev</Authors>
+    <Company>Tech Art Ltd</Company>
+    <Description>Provides additional functionalities for interacting with web elements using LINQ expressions</Description>
+    <PackageProjectUrl>https://github.com/techartdev/Selenium.WebDriver.Linq</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/techartdev/Selenium.WebDriver.Linq</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>selenium, webdriver, linq, extensions</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Selenium.DomExtensions\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
