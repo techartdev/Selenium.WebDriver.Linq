@@ -9,7 +9,7 @@ The LinqWebElement class extends the WebElement class and provides additional fu
 - parentDriver: The parent driver associated with the web element.
 - id: The unique identifier of the web element.
 
-### Properties
+## Properties
 
 #### Id
 Gets or sets the ID attribute of the web element.
@@ -32,7 +32,7 @@ Gets the sibling web elements of the current web element as an enumerable collec
 #### Attributes
 The Attributes property provides a dictionary of attributes and their values for the web element. The dictionary contains the attribute names as keys and their corresponding values as values.
 
-### Methods
+## Methods
 
 #### Delete()
 Deletes the current web element.
@@ -58,13 +58,13 @@ Appends the specified HTML content to the web element.
 
 - html: The HTML content to append.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-### Contact
+## Contact
 Visit https://scrapeweb.site
 
-Or join the Web Scraping and Automation community on Discord: https://discord.gg/f3EfBQamnT
+Or join the **Web Scraping and Automation** community on Discord: https://discord.gg/f3EfBQamnT
 
-### Disclaimer
+## Disclaimer
 The extensions provided by this library are subject to the reliability of the Selenium WebDriver and the browser being automated. Please ensure the elements are available and interactable before using these extension methods to avoid any unexpected exceptions or behavior.
