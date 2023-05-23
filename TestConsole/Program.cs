@@ -2,7 +2,7 @@
 using OpenQA.Selenium.Chrome;
 using Selenium.WebDriver.Linq;
 
-namespace TestConsole
+namespace Example
 {
     class Program
     {
@@ -17,8 +17,6 @@ namespace TestConsole
             var test = elem.Children.First(w=> w.Id == "siteContent");
 
             var cc = test.Children.ToList();
-
-            
         }
     }
 }
