@@ -1,5 +1,7 @@
 # Selenium.WebDriver.Linq
 
+![Nuget](https://img.shields.io/nuget/v/Selenium.WebDriver.Linq)
+
 The LinqWebElement class extends the WebElement class and provides additional functionalities for interacting with web elements using LINQ expressions. It encapsulates an IWebElement object and enhances it with convenient methods and properties.
 
 
@@ -55,3 +57,14 @@ Sets the text content of the web element.
 Appends the specified HTML content to the web element.
 
 - html: The HTML content to append.
+
+### License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+### Contact
+Visit https://scrapeweb.site
+
+Or join the Web Scraping and Automation community on Discord: https://discord.gg/f3EfBQamnT
+
+### Disclaimer
+The extensions provided by this library are subject to the reliability of the Selenium WebDriver and the browser being automated. Please ensure the elements are available and interactable before using these extension methods to avoid any unexpected exceptions or behavior.
