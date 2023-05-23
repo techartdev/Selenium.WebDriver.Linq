@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.WebDriver.Linq", "Selenium.WebDriver.Linq\Selenium.WebDriver.Linq.csproj", "{1FC487B0-B6EF-4AB4-95F5-E2F6B863E91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{3CD058F7-39A7-454D-AB12-F631802799E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FC487B0-B6EF-4AB4-95F5-E2F6B863E91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC487B0-B6EF-4AB4-95F5-E2F6B863E91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC487B0-B6EF-4AB4-95F5-E2F6B863E91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC487B0-B6EF-4AB4-95F5-E2F6B863E91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD058F7-39A7-454D-AB12-F631802799E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD058F7-39A7-454D-AB12-F631802799E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD058F7-39A7-454D-AB12-F631802799E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD058F7-39A7-454D-AB12-F631802799E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A57075D5-CCA0-4D40-AF1E-6593C3D1BE60}
+	EndGlobalSection
+EndGlobal
