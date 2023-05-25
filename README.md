@@ -1,6 +1,6 @@
 # Selenium.WebDriver.Linq
 
-![Nuget](https://img.shields.io/nuget/v/Selenium.WebDriver.Linq)
+![Nuget](https://img.shields.io/nuget/v/VHDTools)
 
 The LinqWebElement class extends the WebElement class and provides additional functionalities for interacting with web elements using LINQ expressions. It encapsulates an IWebElement object and enhances it with convenient methods and properties.
 
